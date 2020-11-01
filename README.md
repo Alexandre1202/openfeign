@@ -1,5 +1,6 @@
 # openfeign
 This is my very simple Web Application using Spring Cloud OpenFeign technology.
+The following web application provides a REST Full Endpoint to check an account balance using the method GET, called . In the same time there is another
 
 ## What is it for?
 [Spring Cloud OpenFeign](https://cloud.spring.io/spring-cloud-openfeign/reference/html/) enables you to build Spring Boot applications that needs to integrate with other secure REST Full web service.
@@ -18,8 +19,18 @@ In your system operation, please, open your CLI (MacOS Terminal or Linux bash sh
 git clone https://github.com/alexandre1202/openfeign.git
 mvn spring-boot:run
 ```
+If everything has been done successfully the following picture will be displayed in your console:
 
-## How to execute this application in your browser
+
+## How to start this application in your browser
 *This step depends on the previews installation.*
 
 [Click to run it](http://localhost:8080/openfeign-get-account-balance)
+
+## How to stop this application
+*This step depends on the previews installation.*
+
+- close the CLI console with the following picture:
+
+![image](src/main/resources/static/springboot-console-output.jpeg)
+

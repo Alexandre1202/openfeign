@@ -9,5 +9,5 @@ import lombok.Setter;
 @AllArgsConstructor
 public class AccountBalance {
     private String customerName;
-    private Long balance;
+    private Double balance;
 }
