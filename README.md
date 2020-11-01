@@ -1,6 +1,6 @@
 # openfeign
 This is my very simple Web Application using Spring Cloud OpenFeign technology.
-The following web application provides a REST Full Endpoint to check an account balance using the method GET, called . In the same time there is another
+The following web application provides a REST Full Endpoint to check an account balance using the method GET, called /available-account-balance. In the same time there is another endpoint which a client consumes the previews endpoint. The client consumer can be accessed by /openfeign-get-account-balance.
 
 ## What is it for?
 [Spring Cloud OpenFeign](https://cloud.spring.io/spring-cloud-openfeign/reference/html/) enables you to build Spring Boot applications that needs to integrate with other secure REST Full web service.

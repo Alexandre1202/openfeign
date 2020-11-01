@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(value = "available-account-balance", url = "http://localhost:8080")
 public interface AvailableAccountBalanceClient {
     @GetMapping(value = "available-account-balance")
-    public AccountBalance getAccountBalance();
+    AccountBalance getAccountBalance();
 }
