@@ -5,6 +5,6 @@ This is my very simple Spring OpenFeign Application
 It's an example of how to implement it.
 
 ## What is it for?
-Spring Cloud OpenFeign enable you to build Spring Boot applications to communicate with other secure REST Full web service.
-https://spring.io/projects/spring-cloud-openfeign
+[Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign) enable you to build Spring Boot applications to communicate with other secure REST Full web service.
+
 
